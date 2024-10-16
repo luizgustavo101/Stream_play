@@ -10,8 +10,10 @@
     <link rel="import" href="./arquivos/styles/home_page.css">
 </head>
 
-<body>
-    <img class="botao_para_subir" src="./arquivos/img/seta.png" alt="topo">
+<body id="topo">
+    <a href="#topo">
+        <img class="botao_para_subir" src="./arquivos/img/seta.png" alt="topo">
+    </a>
     <header>
         <div class="logo">
             <i><img src="./arquivos/img/logo.png" alt="logo" height="50"></i>
@@ -21,19 +23,42 @@
         </div>
         <div class="navbar">
             <nav>
-                <ul class="lista_estilizada">
-                    <li>Gênero</li>
-                    <li>Lançamentos</li>
-                    <li>Ano</li>
-                    <li>Contato</li>
-                </ul>
+                    <span class="drop">
+                        <p><img src="./arquivos/img/icon_drop.png" alt="">Gêneros</p>
+                      <ul class="genero">
+                        <li>um</li>
+                        <li>dois</li>
+                        <li>tres</li>
+                        <li>quatro</li>
+                      </ul>
+                    </span>
+                    <span class="drop">
+                        <p><img src="./arquivos/img/icon_drop.png" alt="">Lançamentos</p>
+                      <ul class="Lançamentos">
+                        <li>um</li>
+                        <li>dois</li>
+                        <li>tres</li>
+                        <li>quatro</li>
+                      </ul>
+                    </span>
+                    <span class="drop">
+                        <p><img src="./arquivos/img/icon_drop.png" alt="">ano</p>
+                      <ul class="ano">
+                        <li>um</li>
+                        <li>dois</li>
+                        <li>tres</li>
+                        <li>quatro</li>
+                      </ul>
+                    </span>
+                    <span >
+                        <p>Contato</p>
+                    </span>
             </nav>
         </div>
     </header>
-    <main></main>
+    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi saepe eaque cupiditate. Nobis perferendis et, autem architecto impedit ipsam aut reprehenderit eligendi magni minima, voluptatibus fugit ipsa nulla. Repellat, ipsa.</main>
     <footer></footer>
-    <script src="script_global.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./arquivos/js/script_global.js"></script>
 </body>
 
 </html>
