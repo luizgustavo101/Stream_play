@@ -38,46 +38,7 @@ nav {
   width: 90%;
   display: flex;
   align-items: center;
-}
-
-.drop {
-  position: relative;
-}
-
-.drop p {
-  position: relative;
-  padding: 5px;
-}
-
-.drop p img{
-  transform: rotate(180deg);
-  margin-right: 2.5px;
-} 
-
-.drop ul,ol {
-  display: none;
-  position: absolute;
-  top: 90%;
-  list-style-type: none;
-  color: rgba(255, 255, 255, 0.959);
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: rgb(41, 41, 41);
-}
-
-.drop li{
-  padding: 5px 10px 5px 10px;
-  transition: .3s;
-}
-
-.drop ul li:hover{
-  transform: translateX(5px);
-  background-color: rgb(230, 230, 230);
-  color: rgb(39, 37, 37);
-}
-
-.drop:hover{
-  cursor: pointer;
+  gap: 15px;
 }
 
 footer {
