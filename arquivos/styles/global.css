@@ -18,6 +18,26 @@ header {
   background-color: rgb(126, 204, 228);
 }
 
+.nav{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.details_nav{
+  position: relative;
+}
+
+.list_nav{
+  position: absolute;
+}
+
+
+
+
 footer {
   background-color: rgb(126, 204, 228);
 }
