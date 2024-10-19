@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100vh;
-  width: 100vw;
-}
-
-body {
-  position: relative;
-}
-
 .botao_para_subir {
   width: 40px;
   position: fixed;
@@ -25,24 +15,13 @@ body {
 }
 
 header {
-  display: flex;
-  width: 100%;
   background-color: rgb(126, 204, 228);
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  flex-wrap: wrap;
-}
-
-nav {
-  height: 100%;
-  width: 90%;
-  display: flex;
-  align-items: center;
-  gap: 15px;
 }
 
 footer {
-  width: 100%;
-  height: 50px;
   background-color: rgb(126, 204, 228);
+}
+
+div{
+  border: 1px solid black;
 }
