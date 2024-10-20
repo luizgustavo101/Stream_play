@@ -32,11 +32,31 @@ header {
 }
 
 .list_nav{
+  all: unset;
   position: absolute;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  columns: 3;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
+.li{
+  flex:1 1 100px;
+  background-color: rgb(0, 162, 255);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  text-align: center;
+}
 
-
+.list_nav li:hover{
+  display: block;
+  background-color: rgb(0, 87, 138);
+  
+}
 
 footer {
   background-color: rgb(126, 204, 228);
