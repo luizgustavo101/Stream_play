@@ -1,0 +1,13 @@
+.entrar{
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.entrar:hover{
+    color: black;
+    background-color: aliceblue;
+}
